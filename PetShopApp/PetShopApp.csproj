@@ -111,6 +111,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>PetShopDB.mdf</DependentUpon>
     </Content>
+    <Content Include="SQL_Queries\Create Tables and insert Data.sql" />
+    <Content Include="SQL_Queries\Get all Owners and Pets.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
